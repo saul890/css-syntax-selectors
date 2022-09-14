@@ -1,24 +1,30 @@
-body {
-  color: brown;
-}
-
-h1 {
+h1{
   color: red;
 }
 
-.quote {
+
+#intro{
+  max-width: 50%;
+  border: black solid 20px;
+}
+
+#intro:hover{
+  box-shadow: 5px 10px orange;
+  cursor: pointer;
+}
+
+body{
+  color: brown;
+}
+
+.quote{
   color: gray;
 }
 
-.quote.narrator {
+.quote .narrator{
   color: black;
 }
 
-#intro p {
+#intro p{
   color: green;
-}
-
-.super-important-omg {
-  font-size: 20px;
-  background-color: yellow;
 }
